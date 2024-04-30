@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de detección de voz</title>
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.2/getting-started/introduction/">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center display-4 mb-4">Reconocimiento de Voz</h1>
+        <H4>Presiona el botón "Comenzar reconocimiento", y dí "Alexa" seguido de alguna de las siguientes ordenes <br>
+            - Enciende/apaga la luz de la recámara <br>
+            - Enciende/apaga la luz de la sala <br>
+            - Enciende/apaga las luces del jardín<br>
+            - Enciende/apaga el ventilador <br>
+            - Enciende/apaga la alarma <br>
+            - Enciende/apaga las cámaras de vigilancia <br>
+            - Abre/Cierra las cortinas <br>
+        </H4>
+        <button id="start-btn" class="btn btn-primary btn-lg">Comenzar Reconocimiento</button>
+        <div id="output" class="mt-4"></div>
+      </div>
+  <div class="container">
+    <h1>App de detección de voz</h1>
+    <div class="imagen">
+        <img src="images/casa.png" alt="Imagen de casa" class="img-fluid" width="700">
+    </div>
+    <div id="textoTranscrito"></div>
+</div>
+    <script src="https://jquery.com/"></script>
+    <script src="https://getbootstrap.com/docs/5.2/getting-started/introduction/"></script>
+    <script src="detección.js"></script>
+</body>
+</html>
