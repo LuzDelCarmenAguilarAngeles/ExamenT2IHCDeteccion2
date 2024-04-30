@@ -53,7 +53,7 @@ window.addEventListener('DOMContentLoaded', () => {
             }, 1900);
     
           }else 
-          if (speechToText.includes('Alexa, enciende la alarma')) {
+          if (speechToText.includes('Alexa enciende la alarma')) {
             if (!isAlarmActive) {
               isAlarmActive = true;
               // Reproducir el audio de la alarma en bucle
